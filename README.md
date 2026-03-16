@@ -12,8 +12,14 @@ Includes terrain ratings, late-March snow reliability, après-ski scores, and ac
 
 ## View it live
 
-👉 `https://<your-username>.github.io/ski-comparison/`
+👉 [https://nayifff.github.io/ski-comparison/](https://nayifff.github.io/ski-comparison/)
 
-## Deploy
+## Deploy (GitHub Pages)
 
-This is a single `index.html` file — just enable GitHub Pages on the `main` branch.
+1. In the repo: **Settings → Pages → Source**: choose **Deploy from a branch**.
+2. Branch: **main**, folder: **/ (root)**.
+3. Save. The site will be at [https://nayifff.github.io/ski-comparison/](https://nayifff.github.io/ski-comparison/).
+
+Included for GitHub Pages:
+- **`.nojekyll`** — so the site is served as static files (no Jekyll).
+- **`404.html`** — redirects unknown paths back to the main page.
